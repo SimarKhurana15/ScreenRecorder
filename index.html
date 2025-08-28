@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Recorder </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Screen Recorder &#x1F534;</h1>
+        <div class="quality-control">
+            <label for="Quality">Choose Quality &#x1F449;</label>
+           <Select name = "" id="Quality">
+            <option value="Sd">SD</option>
+            <option value="Hd">HD</option>
+            <option value="4k">4K</option>
+           </Select>
+        </div>
+        <video src="" id="preview" autoplay muted></video>
+        <div class="controls">
+            <button id="StartBtn">Start Recording</button>
+            <button id="StopBtn">Stop Recording</button>
+            <button id="DownloadBtn">Download</button>
+            <div id="timer"> &#x23F3; 00:00</div>
+        </div>
+    </div>
+</body>
+<script src="recorder.js"></script>
+</html>
